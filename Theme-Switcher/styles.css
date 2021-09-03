@@ -1,0 +1,48 @@
+body {
+  margin: 3em;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  line-height: 1.25;
+  margin: 2em 0 0;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+#switcher {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#switcher li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 15px 10px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+#grayBtn {
+  background-color: gray;
+}
+
+#whiteBtn {
+  background-color: white;
+}
+
+#blueBtn {
+  background-color: blue;
+}
+
+#yellowBtn {
+  background-color: yellow;
+}

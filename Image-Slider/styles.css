@@ -1,0 +1,40 @@
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 50vw;
+  position: relative;
+}
+
+.slides {
+  width: 100%;
+}
+
+#btn1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateX(-100%) translateY(-50%);
+}
+
+#btn2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateX(100%) translateY(-50%);
+}
+
+span {
+  background-color: lightgreen;
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 0 10px;
+  margin: 0 5px;
+}

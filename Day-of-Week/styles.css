@@ -1,0 +1,42 @@
+:root {
+  font-size: 20px;
+}
+
+.container {
+  background-color: aqua;
+  border-radius: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 3rem auto;
+  padding: 0.7rem;
+  text-align: center;
+  width: 40%;
+}
+
+h2 {
+  background-color: blue;
+  color: white;
+  font-size: 2.2rem;
+  margin: 0.5rem auto 0;
+  padding: 3px;
+  width: 50%;
+}
+
+.container div {
+  margin: auto;
+  text-align: left;
+  width: 75%;
+}
+
+#day {
+  color: orangered;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+#phrase {
+  color: blue;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 0 0 15px;
+}

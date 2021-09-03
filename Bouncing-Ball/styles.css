@@ -1,0 +1,10 @@
+.container {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cnv {
+  background-color: #31f0f0;
+}

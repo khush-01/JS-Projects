@@ -1,0 +1,9 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+p#root {
+  text-align: center;
+  font-size: 100px;
+}

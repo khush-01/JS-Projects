@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 58px;
+}
+
+
+input {
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #000;
+  color: #fff;
+  border-style: none;
+}

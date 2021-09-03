@@ -1,0 +1,20 @@
+document.getElementById('num0').addEventListener('click', () => {calc.display.value += '0'})
+document.getElementById('num1').addEventListener('click', () => {calc.display.value += '1'})
+document.getElementById('num2').addEventListener('click', () => {calc.display.value += '2'})
+document.getElementById('num3').addEventListener('click', () => {calc.display.value += '3'})
+document.getElementById('num4').addEventListener('click', () => {calc.display.value += '4'})
+document.getElementById('num5').addEventListener('click', () => {calc.display.value += '5'})
+document.getElementById('num6').addEventListener('click', () => {calc.display.value += '6'})
+document.getElementById('num7').addEventListener('click', () => {calc.display.value += '7'})
+document.getElementById('num8').addEventListener('click', () => {calc.display.value += '8'})
+document.getElementById('num9').addEventListener('click', () => {calc.display.value += '9'})
+document.getElementById('add').addEventListener('click', () => {calc.display.value += ' + '})
+document.getElementById('sub').addEventListener('click', () => {calc.display.value += ' - '})
+document.getElementById('mul').addEventListener('click', () => {calc.display.value += ' * '})
+document.getElementById('div').addEventListener('click', () => {calc.display.value += ' / '})
+
+document.getElementById('clear').addEventListener('click', () => {calc.display.value = ''})
+
+document.getElementById('equals').addEventListener('click', () => {
+  calc.display.value = eval(calc.display.value)
+})
